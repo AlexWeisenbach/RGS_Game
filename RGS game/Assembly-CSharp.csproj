@@ -45,9 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dialoguebox stuff\DialogueBox.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\Exit.cs" />
-     <Compile Include="Assets\Interaction.cs" />
+     <Compile Include="Assets\Interaction_Text.cs" />
      <Compile Include="Assets\PDA_opendoors.cs" />
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\RoomController.cs" />

@@ -5,11 +5,8 @@ public class RoomController : MonoBehaviour {
 
 	// Use this for initialization
 	public GameObject pda;
-	//public GameObject door1top;
-	//public GameObject door1bot;//Maybe a better way than this, but for now this is fine
-	void Start () {
+	public GameObject dialogueBox;
 		
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -29,4 +26,11 @@ public class RoomController : MonoBehaviour {
 		//door1top.SendMessage("Open");
 		//door1bot.SendMessage("Open");
 	}
+
+	void CreateDialogue(string s)
+	{
+		dialogueBox.transform.parent.gameObject.SetActive(true);
+		dialogueBox.SendMessage("Appear", s);
+	}
+
 }
