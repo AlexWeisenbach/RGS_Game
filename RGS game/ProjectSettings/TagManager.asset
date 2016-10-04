@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Interactable
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -54,4 +55,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2181561759
+    locked: 0
+  - name: PDA_overlay
+    uniqueID: 4176696075
     locked: 0

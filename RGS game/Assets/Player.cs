@@ -64,7 +64,7 @@ public class Player : MonoBehaviour {
 			
 		}
 
-		if(Input.GetKey("space"))
+		if(Input.GetKeyDown("space"))
 		{
 			boxc.enabled = false;
 			RaycastHit2D interact = Physics2D.Raycast(transform.position, direction, blocking);
@@ -82,7 +82,7 @@ public class Player : MonoBehaviour {
 		boxc.enabled = false;
 		RaycastHit2D r = Physics2D.Raycast(transform.position, d, blocking);
 		boxc.enabled = true;
-		if(r.transform != null && r.collider.CompareTag("Wall"))
+		if(r.transform != null && (r.collider.CompareTag("Wall") || r.collider.CompareTag("Door")))
 		{
 			return r.distance >= .5;
 		}
