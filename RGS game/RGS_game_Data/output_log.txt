@@ -1,11 +1,12 @@
-Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
     Vendor:   NVIDIA
-    VRAM:     1995 MB
+    VRAM:     2018 MB
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Platform assembly: C:\Users\weisea3\Desktop\RGS\Git_repo\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\weisea3\Desktop\RGS\Git_repo\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\weisea3\Desktop\RGS\Git_repo\RGS_Game\RGS game\RGS_game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
@@ -25,3 +26,34 @@ UnloadTime: 1.203355 ms
 Setting up 2 worker threads for Enlighten.
   Thread -> id: 67c4 -> priority: 1 
   Thread -> id: 6bc -> priority: 1 
+=======
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.130 seconds
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\gabri\Documents\RGS_Game\RGS game\RGS_game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.897975 ms
+Triggered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.034272 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 243.
+Total: 0.366617 ms (FindLiveObjects: 0.026074 ms CreateObjectMapping: 0.022913 ms MarkObjects: 0.206617 ms  DeleteObjects: 0.109827 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 52c8 -> priority: 1 
+  Thread -> id: 3a8c -> priority: 1 
+>>>>>>> 69e433a2e604adf9bdbcb52831b44a27430c4b75
