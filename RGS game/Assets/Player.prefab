@@ -71,10 +71,11 @@ MonoBehaviour:
   player_down: {fileID: 21300000, guid: 685097fcac9c1a047809a535621307bc, type: 3}
   player_left: {fileID: 21300000, guid: ea5b04f4291c5a34ea15ab45c594b688, type: 3}
   player_right: {fileID: 21300000, guid: 0072df137ead01f428dddd46ee27d77f, type: 3}
-  playerSpeed: 2
+  playerSpeed: 3
   blocking:
     serializedVersion: 2
     m_Bits: 256
+  roomManager: {fileID: 0}
 --- !u!212 &212000011581424506
 SpriteRenderer:
   m_ObjectHideFlags: 1

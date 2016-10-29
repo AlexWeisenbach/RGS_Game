@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Interaction : MonoBehaviour {
+public class Fire : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,10 +11,5 @@ public class Interaction : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-	}
-
-	void Activate()
-	{
-		print("Activate called");
 	}
 }

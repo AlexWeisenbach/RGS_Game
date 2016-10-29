@@ -104,7 +104,7 @@ public class DialogueBox : MonoBehaviour {
             case State.Hidden:
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
-                    //Appear("Hello");
+                    Appear("Hello");
                 }
                 break;
 

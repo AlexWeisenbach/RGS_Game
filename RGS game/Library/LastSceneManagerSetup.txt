@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Cabin1.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Newstuff.unity
+=======
+- path: Assets/room1.unity
+>>>>>>> 59e66755535edadbb0e2f6574c51155b82fd4ed8
+>>>>>>> 23028427edce3cccf66cca7ea83beb4d7c55b052
   isLoaded: 1
   isActive: 1
