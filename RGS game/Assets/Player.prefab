@@ -24,7 +24,7 @@ GameObject:
   - 114: {fileID: 114000012222597308}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012007656066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.675408, y: 0.5061883, z: 5}
+  m_LocalPosition: {x: -0.56, y: 0.5061883, z: 5}
   m_LocalScale: {x: 0.1875, y: 0.1387495, z: 2}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -67,10 +67,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79797e8c9c1c7b4da1e13d4fd6996ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_up: {fileID: 21300000, guid: 8c992be985a9c0b48b02db2eea707e0b, type: 3}
-  player_down: {fileID: 21300000, guid: 685097fcac9c1a047809a535621307bc, type: 3}
-  player_left: {fileID: 21300000, guid: ea5b04f4291c5a34ea15ab45c594b688, type: 3}
-  player_right: {fileID: 21300000, guid: 0072df137ead01f428dddd46ee27d77f, type: 3}
+  player_up: {fileID: 21300000, guid: 4ddffa6122d60c24080388fbcdb3538d, type: 3}
+  player_down: {fileID: 21300000, guid: a27f12de0b1822b4e917c5fc28186f05, type: 3}
+  player_left: {fileID: 21300000, guid: 42537600ee4c67e4d92d1007c1f0a111, type: 3}
+  player_right: {fileID: 21300000, guid: c9c0932659bb451429eb70c82a5ca218, type: 3}
   playerSpeed: 3
   direction: {x: 0, y: 0}
   blocking:
@@ -106,7 +106,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2113405537
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c9c0932659bb451429eb70c82a5ca218, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
