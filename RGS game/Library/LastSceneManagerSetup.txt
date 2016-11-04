@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ice1.unity
+- path: Assets/Scenes/Ice6.unity
   isLoaded: 1
   isActive: 1
